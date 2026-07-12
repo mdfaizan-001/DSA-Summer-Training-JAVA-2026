@@ -8,15 +8,11 @@ public class LargestSmallestArray {
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > largest) 
                 largest = arr[i];
-               
-
             if (arr[i] < smallest) 
                 smallest = arr[i];
-            
         }
             System.out.println("Largest number: " + largest);
             System.out.println("Smallest number: " + smallest);
-        
     }
 }
             
