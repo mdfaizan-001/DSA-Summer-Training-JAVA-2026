@@ -1,11 +1,9 @@
 import java.util.Scanner;
-
 public class PrimeCheck {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter Number: ");
             int n = sc.nextInt();
-
             boolean isPrime = true;
 
             if(n <= 1) {
@@ -18,7 +16,6 @@ public class PrimeCheck {
                     }
                 }
             }
-
             if(isPrime) {
                 System.out.println(n + " is a prime number.");
             } else {
