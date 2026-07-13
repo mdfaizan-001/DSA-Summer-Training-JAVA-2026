@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SumNaturalNumbers {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
@@ -10,7 +9,6 @@ public class SumNaturalNumbers {
             for (int i = 1; i <= n; i++) {
                 sum += i;
             }
-
             System.out.println("Sum = " + sum);
         }
     }
