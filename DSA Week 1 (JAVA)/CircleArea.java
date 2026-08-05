@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CircleArea {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
