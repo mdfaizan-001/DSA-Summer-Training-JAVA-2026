@@ -1,6 +1,5 @@
 import java.util.PriorityQueue;
 import java.util.Queue;
-
 public class PQueue {
     public static void main(String[] args) {
         // create a PriorityQueue of integers
@@ -11,7 +10,6 @@ public class PQueue {
         pq.add(40);
         pq.add(10);
         pq.add(30);
-
         // Displaying the elements of the PriorityQueue
         System.out.println("PriorityQueue elements: " + pq);
     }
