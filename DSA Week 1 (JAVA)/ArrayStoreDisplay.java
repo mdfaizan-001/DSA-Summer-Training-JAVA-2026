@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ArrayStoreDisplay {
+public class ArrayStoreDisplay {    
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int[] arr = new int[5];
