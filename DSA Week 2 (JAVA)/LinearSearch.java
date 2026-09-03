@@ -12,7 +12,7 @@ public class LinearSearch {
                     found = true;
                     break;
                 }
-            }
+            }   
             if(!found)
                 System.out.println("Element Not Found");
         }
