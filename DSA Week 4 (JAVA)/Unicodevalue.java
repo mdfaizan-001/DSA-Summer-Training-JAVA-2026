@@ -1,6 +1,5 @@
 public class Unicodevalue {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {   
         System.out.println((int)'A');
         System.out.println((int)'a');
         System.out.println((int)'B');
@@ -66,8 +65,6 @@ public class Unicodevalue {
         System.out.println((int)'Y');
         System.out.println((int)'y');
         System.out.println((int)'Z');
-        System.out.println((int)'z');
-
-        
+        System.out.println((int)'z');       
     }
 }
