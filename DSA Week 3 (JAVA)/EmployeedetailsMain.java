@@ -1,4 +1,5 @@
 class Employee { 
+    
     String empName;
     int empId;
     String phoneNo;
@@ -8,6 +9,7 @@ class Employee {
         System.out.println("Phone No: " + phoneNo);
     }
 }
+
 public class EmployeedetailsMain {
     public static void main(String[] args) {
         Employee e1 = new Employee();
@@ -16,4 +18,5 @@ public class EmployeedetailsMain {
         e1.phoneNo = "9876543210";
         e1.display();   
     }
+    
 }
