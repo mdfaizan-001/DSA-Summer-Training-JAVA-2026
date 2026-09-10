@@ -1,5 +1,6 @@
 public class ExceptionHandling {
     public static void main(String[] args) {
+        
         // Example 1: ArithmeticException
         System.out.println("Example 1: Division by Zero");
         int n = 10;
@@ -10,6 +11,7 @@ public class ExceptionHandling {
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by 0!");
         } 
+        
         System.out.println("-----------------------------");
         // Example 2: ArrayIndexOutOfBoundsException with finally
         System.out.println("Example 2: Array Exception");
@@ -21,6 +23,7 @@ public class ExceptionHandling {
         } finally {
             System.out.println("This block always executes.");
         }
+        
         System.out.println("Program continues...");  
     }
 }
