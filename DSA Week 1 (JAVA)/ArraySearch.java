@@ -1,7 +1,11 @@
 import java.util.Scanner;
+
 public class ArraySearch {
+    
     public static void main(String[] args) {
+        
         try (Scanner sc = new Scanner(System.in)) {
+            
             int[] arr = new int[5];
             int search;
             boolean found = false;
@@ -21,6 +25,7 @@ public class ArraySearch {
                 System.out.println("Element Found");
             else
                 System.out.println("Element Not Found");
+            
         }
     }
 }
