@@ -1,11 +1,7 @@
 import java.util.Scanner;
-
-public class AverageOfNNumbers {
-    
-    public static void main(String[] args) {
-        
-        try (Scanner sc = new Scanner(System.in)) {
-            
+public class AverageOfNNumbers { 
+    public static void main(String[] args) {    
+        try (Scanner sc = new Scanner(System.in)) {  
             int n;
             double num, sum = 0, average;
             System.out.print("Enter number of values: ");
@@ -16,7 +12,6 @@ public class AverageOfNNumbers {
                 sum += num;
             } 
             average = sum / n;
-            
             System.out.println("Average = " + average);
         }
     }
