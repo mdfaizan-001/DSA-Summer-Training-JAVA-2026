@@ -1,11 +1,7 @@
 import java.util.Scanner;
-
-public class AscendingOrderCheck {
-    
-    public static void main(String[] args) {
-        
-        try (Scanner sc = new Scanner(System.in)) {
-            
+public class AscendingOrderCheck { 
+    public static void main(String[] args) { 
+        try (Scanner sc = new Scanner(System.in)) {   
             int[] arr = new int[5];
             boolean ascending = true;
             System.out.println("Enter 5 numbers:");
@@ -18,12 +14,10 @@ public class AscendingOrderCheck {
                     break;
                 }
             }
-            
             if(ascending)
                 System.out.println("Array is in Ascending Order");
             else
                 System.out.println("Array is not in Ascending Order");
-            
         }
     }
 }
