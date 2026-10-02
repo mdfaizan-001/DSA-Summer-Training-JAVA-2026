@@ -1,11 +1,7 @@
 import java.util.Scanner;
-
-public class ArraySum {
-    
-    public static void main(String[] args) {
-        
-        try (Scanner sc = new Scanner(System.in)) {
-            
+public class ArraySum {   
+    public static void main(String[] args) { 
+        try (Scanner sc = new Scanner(System.in)) { 
             int[] arr = new int[5];
             int sum = 0;
             System.out.println("Enter 5 numbers:");
@@ -15,9 +11,7 @@ public class ArraySum {
             for(int i = 0; i < 5; i++) {
                 sum += arr[i];
             }
-            
             System.out.println("Sum of all elements = " + sum);
-            
         }
     }
 }
