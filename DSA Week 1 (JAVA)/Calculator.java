@@ -1,6 +1,9 @@
 import java.util.Scanner;
+
 public class Calculator {
+    
     public static void main(String[] args) {
+        
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
@@ -24,7 +27,9 @@ public class Calculator {
                         System.out.println("Cannot divide by zero.");
                     }
                 }
+                    
                 default -> System.out.println("Invalid choice!");
+                    
             }
         }
     }
