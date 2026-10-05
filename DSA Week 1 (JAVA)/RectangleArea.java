@@ -1,6 +1,9 @@
 import java.util.Scanner;
+
 public class RectangleArea {
+    
     public static void main(String[] args) {
+        
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter length: ");
             double length = sc.nextDouble();
@@ -8,6 +11,7 @@ public class RectangleArea {
             double width = sc.nextDouble();
             double area = length * width;
             System.out.println("Area of Rectangle = " + area);
+            
         }
     }
 }
