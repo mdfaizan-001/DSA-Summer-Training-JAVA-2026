@@ -1,5 +1,7 @@
 import java.util.Scanner;
+
 public class FactorialNumber {
+    
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter Number: ");
@@ -8,7 +10,9 @@ public class FactorialNumber {
             for(int i = 1; i <= n; i++) {
                 fact *= i;
             }
+            
             System.out.println("Factorial = " + fact);
+            
         }
     }
 }
